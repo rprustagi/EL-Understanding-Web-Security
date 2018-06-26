@@ -1,7 +1,5 @@
 # Exercise 3
+This exercise describes use of *Secure* attribute when setting cookies.
 
-Here an example of web page is provided that makes use of image sprite technique.
-The web page *_sprite.htm_* contains the code that makes use of image sprite. Also
-provided are the original nine images (*img-01.jpg*, ..., *img-09.jpg*), a combined image (i.e. sprite image)
-*Nine-images.jpg*, as well as transparent blank *Transparent.gif* image.
-
+## scookies.php
+This program makes use of 3 cookies, first cookie (Oragnization) is applicable to all HTTP Request, 2nd (Journal) and 3rd (Topic) are applicable only to HTTPS requests, whereas as 3rd cookie is in addition applicable only to HTTP access by a browser.
