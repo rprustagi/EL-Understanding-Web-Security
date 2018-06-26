@@ -1,5 +1,7 @@
-
+# The line below should be added in web server configuration file.
 Header set Content-Security-Policy "default-src 'none'; script-src 'self'; img-src 'self; style-src 'self'";
+
+# At websites which are hosted in some shared mode and where access to configuration files are is not possible same effect can be achieved usig meta tag in the web page itself.
 
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; img-src 'self'; style-src 'self'">
 
