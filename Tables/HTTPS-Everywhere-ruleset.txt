@@ -1,0 +1,9 @@
+<ruleset name="MySites">
+        <target host="flipkart.com" />
+        <target host="www.flipkart.com" />
+        <target host="airtel.in"/>
+
+        <rule from="^http:"
+                to="https:" />
+</ruleset>
+
